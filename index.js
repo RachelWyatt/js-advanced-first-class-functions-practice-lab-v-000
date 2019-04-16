@@ -30,3 +30,4 @@ function totalRevenue(drivers){
   const obj = drivers.reduce((a, b) => ({revenue: a.revenue + b.revenue}));
   return obj.revenue;
 }
+
