@@ -1,6 +1,6 @@
 // Code your solution in this file!
 
-const callback =function.for_each(el, i, arr)
+const callback = function (el, i, arr)
     return el;
   
 
