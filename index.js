@@ -5,5 +5,5 @@ const callback = function (el, i, arr)
   
 
 function logDriverNames(driver) {
-  driver.for_each(callback)
+  driver.forEach(callback)
 }
