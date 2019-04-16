@@ -19,8 +19,5 @@ function driversByRevenue(drivers){
 }
 
 function driversByName(drivers) {
-    let sorted = drivers.sort((driverOne, driverTwo) => {
-    return driverOne.name.localeCompare(driverTwo.name)
-  })
-  return sorted
+  
 }
