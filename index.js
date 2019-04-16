@@ -3,6 +3,6 @@
 
 
 function logDriverNames(driver) {
-  driver.for_each()
+  driver.for_each(el, i r)
   
 }
