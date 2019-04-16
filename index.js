@@ -5,7 +5,6 @@
   
 
 function logDriverNames(driver) {
-  driver.for_each(el, i, arr)
-    return el;
-  
+  driver.for_each(callback)
+
 }
