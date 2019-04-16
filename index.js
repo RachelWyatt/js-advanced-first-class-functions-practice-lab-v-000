@@ -1,6 +1,5 @@
 // Code your solution in this file!
-function logDriverNames(driver) {
-  const stringify = function (agg, el, i, arr) {
+const reduceDriverNames = function (agg, el, i, arr) {
   let stringifiedElement = el.name + ' is $' + el.price + '. ';
  
   if (i === arr.length - 1) {
@@ -16,4 +15,8 @@ function logDriverNames(driver) {
 };
  
 products.reduce(stringify, { string: '', totalPrice: 0 });
+
+
+function logDriverNames(driver) {
+  
 }
