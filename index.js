@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 const callback = function (el, i, arr)
-  {return 'el'};
+  {console.log(el)};
   
 
 function logDriverNames(driver) {
